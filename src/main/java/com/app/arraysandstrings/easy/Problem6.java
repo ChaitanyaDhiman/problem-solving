@@ -1,4 +1,4 @@
-package com.app.arraysandstrings;
+package com.app.arraysandstrings.easy;
 
 //    Reverse an Array in groups of given size
 //

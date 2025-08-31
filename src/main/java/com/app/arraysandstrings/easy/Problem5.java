@@ -1,4 +1,4 @@
-package com.app.arraysandstrings;
+package com.app.arraysandstrings.easy;
 
 //      Move all Zeros to End of Array
 //

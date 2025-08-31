@@ -1,4 +1,4 @@
-package com.app.arraysandstrings;
+package com.app.arraysandstrings.easy;
 
 //    Maximum product of a triplet (subsequence of size 3) in array
 //

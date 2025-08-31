@@ -1,4 +1,4 @@
-package com.app.arraysandstrings;
+package com.app.arraysandstrings.easy;
 
 //      Maximum consecutive one’s (or zeros) in a binary array
 //
