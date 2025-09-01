@@ -18,7 +18,7 @@ Output: 16
 Explanation: Largest element is 20, second-largest element is 19 and third-largest element is 16
 
 */
-public class Problem2 {
+public class ThirdLargestElementInArray {
 
 //     Approach 1 : Using Sorting
 //     Time complexity : O(nlog(n))

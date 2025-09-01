@@ -17,7 +17,7 @@ package com.app.arraysandstrings.easy;
 
 import java.util.Arrays;
 
-public class Problem3 {
+public class MaxProductOfTripletsInArray {
 
 //    By Using three nested loops
 //    A simple solution is to check for every triplet using three nested loops.

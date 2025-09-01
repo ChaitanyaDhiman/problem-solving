@@ -17,7 +17,7 @@ package com.app.arraysandstrings.easy;
 //      Output: [0, 0]
 //      Explanation: No change in array as there are all 0s.
 
-public class Problem5 {
+public class MoveAllZerosToEndOfArray {
 
 //    Using Temporary Array - O(n) Time and O(n) Space
 //    The idea is to create a temporary array of same size as the input array arr[].

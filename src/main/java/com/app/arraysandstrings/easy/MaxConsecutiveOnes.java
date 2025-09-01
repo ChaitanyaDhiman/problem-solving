@@ -17,7 +17,7 @@ package com.app.arraysandstrings.easy;
 //      Output: 4
 //      Explanation: The maximum number of consecutive 0’s in the array is 4.
 
-public class Problem4 {
+public class MaxConsecutiveOnes {
 
 //    Using Simple Traversal - O(n) Time and O(1) Space
 //    The idea is to traverse the array once and count how many times the same value repeats consecutively.

@@ -16,7 +16,7 @@ package com.app.arraysandstrings.easy;
 //  Output: [4, 2, 8, 7, 10, 9]
 //  Explanation: Array elements after sorting it in the waveform are 4, 2, 8, 7, 10, 9.
 
-public class Problem8 {
+public class SortArrayInWave {
 
     void sortArray(int[] arr) {
         int n = arr.length;
@@ -37,7 +37,7 @@ public class Problem8 {
     public static void main(String[] args) {
         int[] arr = {1, 3, 4, 5, 6, 7};
 
-        Problem8 p = new Problem8();
+        SortArrayInWave p = new SortArrayInWave();
         p.sortArray(arr);
         p.printArray(arr);
     }

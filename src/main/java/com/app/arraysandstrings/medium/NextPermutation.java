@@ -19,7 +19,7 @@ package com.app.arraysandstrings.medium;
 // Input: arr[] = [1, 3, 5, 4, 2]
 // Output: [1, 4, 2, 3, 5]
 // Explanation: The next lexicographically greater arrangement of the elements in the array arr[] is [1, 4, 2, 3, 5].
-public class Problem1 {
+public class NextPermutation {
     static void nextPermutation(int[] arr) {
         int n = arr.length;
 

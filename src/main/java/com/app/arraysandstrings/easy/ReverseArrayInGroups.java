@@ -17,7 +17,7 @@ package com.app.arraysandstrings.easy;
 //    Input: arr[] = [5, 6, 8, 9], k = 5
 //    Output: [9, 8, 6, 5]
 //    Explanation: Since k is greater than array size, the entire array is reversed.
-public class Problem6 {
+public class ReverseArrayInGroups {
 
     public static void reverseArrayGroup(int[] arr, int k) {
         int length = arr.length;

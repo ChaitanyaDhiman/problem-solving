@@ -15,7 +15,7 @@ import java.util.HashSet;
 //  Input: head: 1 -> 8 -> 3 -> 4 -> NULL
 //  Output: false
 //  Explanation: The last node of the linked list points to NULL, indicating the end of the list.
-public class Problem2 {
+public class DetectCycle {
     static Boolean detectLoop(Node head) {
         HashSet<Node> set = new HashSet<>();
 

@@ -13,7 +13,7 @@ package com.app.arraysandstrings.easy;
 //  Input : [9, 9, 9]
 //  Output: 1000
 //  Explanation: 999 + 1 = 1000
-public class Problem9 {
+public class AddOneToNumberArray {
 
     static int[] addOne(int[] arr) {
         int n = arr.length;

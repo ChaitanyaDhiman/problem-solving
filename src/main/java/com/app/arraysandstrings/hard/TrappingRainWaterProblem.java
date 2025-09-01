@@ -18,7 +18,7 @@ package com.app.arraysandstrings.hard;
 //          Input: arr[] = [1, 2, 3, 4]
 //  Output: 0
 //  Explanation: We cannot trap water as there is no height bound on both sides
-public class Problem1 {
+public class TrappingRainWaterProblem {
 
     public static int maxWater(int[] arr){
         int n = arr.length;

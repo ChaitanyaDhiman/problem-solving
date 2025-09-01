@@ -25,7 +25,7 @@ Output: -1
 Explanation: The largest element of the array is 10 there is no second-largest element.
 
 */
-public class Problem1 {
+public class SecondLargestElementInArray {
 
 //     This is a normal approach using sort.
 //     Time Complexity: O(n*log(n)), as sorting the array takes O(n*log(n)) time and

@@ -3,7 +3,7 @@ package com.app.linkedlists;
 //  Rotate a Linked List
 //
 //  Given the head of a singly linked list and an integer k, rotate the list to the left by k positions and return the updated head.
-public class Problem1 {
+public class RotateLinkedList {
     // Using HashSet - O(n) Time and O(n) Space
     static Node rotate(Node head, int k) {
         if(k == 0 || head == null) return head;
