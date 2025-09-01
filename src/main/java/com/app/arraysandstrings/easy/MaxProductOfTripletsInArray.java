@@ -55,7 +55,7 @@ public class MaxProductOfTripletsInArray {
         Arrays.sort(arr);
 
 //      return arr[length-1] * arr[length - 2] * arr[length - 3]; -> In-case of negative elements this won't work.
-        return Math.max(arr[0] * arr[1] * arr[length - 1], arr[length-1] * arr[length - 2] * arr[length - 3]);
+        return length > 2 ? Math.max(arr[0] * arr[1] * arr[length - 1], arr[length-1] * arr[length - 2] * arr[length - 3]) : 0;
     }
 
 //    By Using Greedy approach - Time O(n) and Space O(1)
@@ -66,7 +66,6 @@ public class MaxProductOfTripletsInArray {
         if (arr == null || arr.length == 0) {
             return 0;
         }
-        int length = arr.length;
 
         int maxFirst = Integer.MIN_VALUE, maxSecond = Integer.MIN_VALUE, maxThird = Integer.MIN_VALUE;
         int minFirst = Integer.MAX_VALUE, minSecond = Integer.MAX_VALUE;
@@ -84,7 +83,7 @@ public class MaxProductOfTripletsInArray {
             }
 
             if(i < minFirst){
-                minSecond = minSecond;
+                minSecond = minFirst;
                 minFirst = i;
             } else if(i < minSecond){
                 minSecond = i;
