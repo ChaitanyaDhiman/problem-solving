@@ -3,6 +3,7 @@ package com.app.arraysandstrings.medium;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.Objects;
 
 //  Find all pairs with a given sum
 //  Difficulty: Easy
@@ -39,6 +40,18 @@ public class AllPair {
     public AllPair(long first, long second) {
         this.first = first;
         this.second = second;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (o == null || getClass() != o.getClass()) return false;
+        AllPair allPair = (AllPair) o;
+        return first == allPair.first && second == allPair.second;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(first, second);
     }
 
     public static AllPair[] allPairs(int target, int[] arr1, int[] arr2) {
