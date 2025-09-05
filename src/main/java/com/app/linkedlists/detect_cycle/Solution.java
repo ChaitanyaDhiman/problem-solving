@@ -1,21 +1,10 @@
-package com.app.linkedlists;
+package com.app.linkedlists.detect_cycle;
+
+import com.app.linkedlists.Node;
 
 import java.util.HashSet;
 
-//  Detect Cycle in Linked List
-//
-//  Given the head of a singly linked list, determine whether the list contains a cycle.
-//
-//  A cycle exists if, while traversing the list through next pointers, you encounter a node that has already been visited instead of eventually reaching nullptr.
-//
-//  Input: head: 1 -> 3 -> 4 -> 3
-//  Output: true
-//  Explanation: The last node of the linked list does not point to NULL; instead, it points to an earlier node in the list, creating a cycle.
-//
-//  Input: head: 1 -> 8 -> 3 -> 4 -> NULL
-//  Output: false
-//  Explanation: The last node of the linked list points to NULL, indicating the end of the list.
-public class DetectCycle {
+public class Solution {
     static Boolean detectLoop(Node head) {
         HashSet<Node> set = new HashSet<>();
 

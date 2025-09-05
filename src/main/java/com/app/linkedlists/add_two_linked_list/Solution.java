@@ -1,12 +1,8 @@
-package com.app.linkedlists;
+package com.app.linkedlists.add_two_linked_list;
 
-//  Add Two Numbers in a Linked List
-//
-//  Given two non-negative integers represented as linked lists with heads head1 and head2, where each node contains a single digit,
-//  return a new linked list representing their sum.
-//
-//  Note: The input lists may contain leading zeros, but the resulting sum list must not contain any leading zeros.
-public class AddTwoLinkedList {
+import com.app.linkedlists.Node;
+
+public class Solution {
 
     // Function to trim leading zeros in linked list
     static Node trimLeadingZeros(Node head) {

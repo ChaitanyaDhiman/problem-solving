@@ -1,4 +1,4 @@
-package com.app.arraysandstrings.easy;
+package com.app.arraysandstrings.easy.first_non_repeating_character;
 
 import java.util.HashMap;
 

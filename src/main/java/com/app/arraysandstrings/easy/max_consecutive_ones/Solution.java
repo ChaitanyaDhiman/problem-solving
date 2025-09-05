@@ -1,4 +1,4 @@
-package com.app.arraysandstrings.easy;
+package com.app.arraysandstrings.easy.max_consecutive_ones;
 
 //      Maximum consecutive one’s (or zeros) in a binary array
 //
@@ -17,7 +17,7 @@ package com.app.arraysandstrings.easy;
 //      Output: 4
 //      Explanation: The maximum number of consecutive 0’s in the array is 4.
 
-public class MaxConsecutiveOnes {
+public class Solution {
 
 //    Using Simple Traversal - O(n) Time and O(1) Space
 //    The idea is to traverse the array once and count how many times the same value repeats consecutively.

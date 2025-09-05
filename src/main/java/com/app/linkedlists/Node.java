@@ -1,10 +1,10 @@
 package com.app.linkedlists;
 
 public class Node {
-    int data;
-    Node next;
+    public int data;
+    public Node next;
 
-    Node(int new_data) {
+    public Node(int new_data) {
         data = new_data;
         next = null;
     }

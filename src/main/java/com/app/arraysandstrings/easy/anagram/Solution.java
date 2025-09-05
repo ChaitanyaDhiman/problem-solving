@@ -1,11 +1,11 @@
-package com.app.arraysandstrings.easy;
+package com.app.arraysandstrings.easy.anagram;
 
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class Anagram {
+public class Solution {
 
-    static boolean isAnagram(String str1, String str2) {
+    static public boolean isAnagram(String str1, String str2) {
         if (str1.length() != str2.length()) {
             return false;
         }
@@ -19,7 +19,7 @@ public class Anagram {
         return Arrays.equals(charArray1, charArray2);
     }
 
-    static boolean isAnagram2(String str1, String str2) {
+    static public boolean isAnagram2(String str1, String str2) {
         if (str1.length() != str2.length()) {
             return false;
         }

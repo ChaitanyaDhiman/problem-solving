@@ -1,21 +1,9 @@
-package com.app.hashing.easy;
+package com.app.hashing.easy.find_frequency_in_array;
 
 import java.util.HashMap;
 import java.util.Map;
 
-//  Fins frequency of element in an array.
-//
-//  Given an array of integers, the task is to find the frequency of num.
-//
-//  Examples:
-//  Input: arr[] = [2, 6, 2, 9, 1, 5, 1], num = 6
-//  Output: 1
-//  Explanation:  The frequency of '6' is 1.
-//
-//  Input: arr[] = [1,1,1,2,2,3], num = 1
-//  Output: 3
-//  Explanation: The frequency of '1' is 3.
-public class FindFrequencyInArray {
+public class Solution {
 
     static int findFrequency(int[] arr, int key) {
         Map<Integer, Integer> map = new HashMap<>();

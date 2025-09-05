@@ -1,9 +1,8 @@
-package com.app.linkedlists;
+package com.app.linkedlists.rotate_linked_list;
 
-//  Rotate a Linked List
-//
-//  Given the head of a singly linked list and an integer k, rotate the list to the left by k positions and return the updated head.
-public class RotateLinkedList {
+import com.app.linkedlists.Node;
+
+public class Solution {
     // Using HashSet - O(n) Time and O(n) Space
     static Node rotate(Node head, int k) {
         if(k == 0 || head == null) return head;

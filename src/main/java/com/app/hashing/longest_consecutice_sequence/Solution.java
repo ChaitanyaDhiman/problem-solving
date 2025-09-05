@@ -1,23 +1,10 @@
-package com.app.hashing;
+package com.app.hashing.longest_consecutice_sequence;
 
 import java.util.HashSet;
 import java.util.Set;
 
-//  Longest Consecutive Subsequence
-//
-//  Given an array of integers, the task is to find the length of the longest subsequence such that elements in the subsequence are consecutive integers,
-//  the consecutive numbers can be in any order.
-//
-//  Examples:
-//  Input: arr[] = [2, 6, 1, 9, 4, 5, 3]
-//  Output: 6
-//  Explanation:  The longest consecutive subsequence [2, 6, 1, 4, 5, 3].
-//
-//  Input: arr[] = [1,1,1,2,2,3]
-//  Output: 3
-//  Explanation: The subsequence [1, 2,3] is the longest subsequence of consecutive elements
-public class LongestConsecutiveSequence {
-    static int longestConsecutiveSequence(int[] nums) {
+public class Solution {
+    static public int longestConsecutiveSequence(int[] nums) {
         Set<Integer> set = new HashSet<>();
         int res = 0;
 
