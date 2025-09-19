@@ -2,7 +2,7 @@ package com.app.arraysandstrings.easy.first_non_repeating_character;
 
 import java.util.HashMap;
 
-public class FirstNonRepeatingCharacter {
+public class Solution {
 
     // Using in-build functions
     public static char getFirstNonRepeatingChar(String s){
