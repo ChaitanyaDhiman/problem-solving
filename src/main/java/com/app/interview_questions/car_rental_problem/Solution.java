@@ -1,7 +1,6 @@
 package com.app.interview_questions.car_rental_problem;
 
 import java.text.SimpleDateFormat;
-import java.time.LocalDateTime;
 import java.util.*;
 
 public class Solution {
@@ -12,16 +11,18 @@ public class Solution {
 
         List<RentalTime> sortedRentals = new ArrayList<>(rentalTimes);
 
-        Collections.sort(sortedRentals, new Comparator<RentalTime>() {
-            @Override
-            public int compare(RentalTime o1, RentalTime o2) {
-                return o1.getStart().compareTo(o2.getStart());
-            }
-        });
+//        Collections.sort(sortedRentals, new Comparator<RentalTime>() {
+//            @Override
+//            public int compare(RentalTime o1, RentalTime o2) {
+//                return o1.getStart().compareTo(o2.getStart());
+//            }
+//        });
+
+        Collections.sort(sortedRentals, (o1, o2) -> o1.getStart().compareTo(o2.getStart())); // Using Lambda expression
 
         for (int i = 1; i < sortedRentals.size(); i++) {
             RentalTime currentRental = sortedRentals.get(i);
-            RentalTime previousRental = sortedRentals.get(i);
+            RentalTime previousRental = sortedRentals.get(i - 1);
 
             if (currentRental.getStart().before(previousRental.getEnd())) {
                 return false;
