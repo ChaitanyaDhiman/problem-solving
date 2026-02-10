@@ -13,6 +13,15 @@ public class streamAPI {
                 .filter(n -> n % 2 == 0)
                 .forEach(System.out::println);
 
+        //Find the second-highest number in a list of integers.
+        Optional<Integer> secondHighest = numbers.stream()
+                .distinct()
+                .sorted(Comparator.reverseOrder())
+                .skip(1)
+                .findFirst();
+
+        System.out.println("Second highest number in the list: " + secondHighest.orElse(null));
+
         //Given a list of integers, find out all the numbers starting with 1 using Stream functions?
         List<Integer> myList = Arrays.asList(10,15,8,49,25,98,32);
 
@@ -87,7 +96,7 @@ public class streamAPI {
                 .sorted(Comparator.reverseOrder())
                 .forEach(System.out::println);
 
-        //Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
+        //Given an integer array arrays, return true if any value appears at least twice in the array, and return false if every element is distinct.
         int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1};
 
         boolean hasDuplicates = Arrays.stream(array)
